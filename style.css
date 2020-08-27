@@ -1,5 +1,13 @@
 html, body {
     background: url("images/krabby-patty-background.png") fixed center center / cover;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #krabby-patty {
